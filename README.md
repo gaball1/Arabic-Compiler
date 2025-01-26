@@ -72,18 +72,19 @@ Before running the compiler, ensure that you have the following installed:
 
 متغير x = 5 + 3 * 2;
 Expected Output:
-Lexical Analysis (Tokens):
+# Lexical Analysis (Tokens):
 
-KEYWORD: متغير (Line: 1, Column: 1)
-IDENT: x (Line: 1, Column: 5)
-ASSIGN: = (Line: 1, Column: 7)
-NUM: 5 (Line: 1, Column: 9)
-OPERATOR: + (Line: 1, Column: 11)
-NUM: 3 (Line: 1, Column: 13)
-OPERATOR: * (Line: 1, Column: 15)
-NUM: 2 (Line: 1, Column: 17)
-SEMICOLON: ؛ (Line: 1, Column: 18)
-Syntax Analysis:
+- KEYWORD: متغير (Line: 1, Column: 1)
+- IDENT: x (Line: 1, Column: 5)
+- ASSIGN: = (Line: 1, Column: 7)
+- NUM: 5 (Line: 1, Column: 9)
+- OPERATOR: + (Line: 1, Column: 11)
+- NUM: 3 (Line: 1, Column: 13)
+- OPERATOR: * (Line: 1, Column: 15)
+- NUM: 2 (Line: 1, Column: 17)
+- SEMICOLON: ؛ (Line: 1, Column: 18)
+
+# Syntax Analysis:
 
 Syntax is valid!
 Contributing
